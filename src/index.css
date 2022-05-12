@@ -13,19 +13,86 @@ canvas {
     z-index: -1;
 }
 
-.hello {
+.intro {
     padding: 4em 3em;
     width: calc(50% - 2em);
 }
 
-.hello .title {
+.intro .title {
     color: #131b2d;
-    font-size: 3em;
+    font-size: 2em;
     margin-bottom: 0.5em;
 }
 
-.hello .text {
+.intro .text {
     letter-spacing: 1px;
     line-height: 1.5;
     color: #6b7c9b;
+}
+
+.details {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+}
+.details h1 {
+    text-align: center;
+    font-size: 2.5em;
+    color: #131b2d;
+}
+
+.details-table {
+    padding: 3em;
+    display: flex;
+}
+
+.details-card {
+    background-color: #2fbaf2;
+    padding: 1em;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    transform: translate(-100px, 100px);
+    opacity: 0;
+    animation: 1s slideIn;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+}
+@keyframes slideIn {
+    to {
+        transform: translate(0, 0);
+        opacity: 1;
+    }
+}
+
+.details-card:nth-child(2) {
+    margin: 0 2.5em;
+    transform: translate(0, 100px);
+    animation-delay: 1.2s;
+}
+
+.details-card:nth-child(3) {
+    transform: translate(100px, 100px);
+    animation-delay: 1.4s;
+}
+
+.details-card .title {
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.details-card .info {
+    margin: 1em 0;
+    text-align: center;
+}
+
+.details-card .btn {
+    background-color: darkgoldenrod;
+    color: #fff;
+    padding: 0.5em 1em;
+    border-radius: 3px;
+    text-decoration: none;
+    font-size: 1em;
 }
