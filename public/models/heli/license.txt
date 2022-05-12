@@ -1,0 +1,11 @@
+Model Information:
+* title:	The Flying Circus - DH.9a WW1 Plane
+* source:	https://sketchfab.com/3d-models/the-flying-circus-dh9a-ww1-plane-7e37a452bf574cbb9e966d78f0d2f341
+* author:	Cleuza Costa (https://sketchfab.com/CleuzaCosta)
+
+Model License:
+* license type:	CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
+* requirements:	Author must be credited. Commercial use is allowed.
+
+If you use this 3D model in your project be sure to copy paste this credit wherever you share it:
+This work is based on "The Flying Circus - DH.9a WW1 Plane" (https://sketchfab.com/3d-models/the-flying-circus-dh9a-ww1-plane-7e37a452bf574cbb9e966d78f0d2f341) by Cleuza Costa (https://sketchfab.com/CleuzaCosta) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/)
